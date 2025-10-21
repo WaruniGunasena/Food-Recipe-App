@@ -44,7 +44,7 @@ const FoodDetails = ({ foodId }) => {
         <div>
           💲
           <span>
-            <strong>{food.pricePerServing / 100} Per serving</strong>
+            <strong>{food.pricePerServing} Per serving</strong>
           </span>
         </div>
         <ItemList food={food} isLoading={isLoading} />
